@@ -32,7 +32,7 @@ export default {
   methods: {
     handlesubmit: function () {
       this.list.push(this.inputvalue)
-      this.inputvalue = '111'
+      this.inputvalue = '111222'
     },
     handlerdelete: function (index) {
       this.list.splice(index, 1)
