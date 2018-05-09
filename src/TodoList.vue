@@ -31,6 +31,9 @@ export default {
   },
   methods: {
     handlersubmit: function () {
+      if (this.inputvalue === '') {
+        return
+      }
       this.list.push(this.inputvalue)
       this.inputvalue = ''
     },
